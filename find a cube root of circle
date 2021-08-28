@@ -1,0 +1,8 @@
+def cuberoot(value):
+    ''' this function is used to fina a cube root '''
+    for i in value:
+        CR=2*3.14*i
+        print(CR)
+value=[1,2,3,4,5]
+cuberoot(value)
+print(cuberoot.__doc__)
