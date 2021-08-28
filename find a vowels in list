@@ -1,0 +1,8 @@
+lst=['a','b','c','d','e','f','g','h','i','k','l']
+vowels=['a','e','i','o','u']
+count=0
+for i in lst:
+    if i in vowels:
+        count=count+1
+        print(i)
+print(count)
