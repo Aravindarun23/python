@@ -1,0 +1,8 @@
+def squareroot(value):
+    ''' this function is used to fina a square root '''
+    for i in value:
+        SR=3.14*i*i
+        print(SR)
+value=[1,2,3,4,5]
+squareroot(value)
+print(squareroot.__doc__)
