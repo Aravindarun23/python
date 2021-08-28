@@ -1,4 +1,6 @@
 # python
   ##BASIC PYTHON PROBLEMS,
-     *find vowels in list
+  
+  
+     1) find vowels in list
 	
