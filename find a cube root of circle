@@ -1,8 +1,8 @@
-def cuberoot(value):
-    ''' this function is used to fina a cube root '''
+def cimcum(value):
+    ''' this function is used to find a circumfrence of a circle '''
     for i in value:
         CR=2*3.14*i
         print(CR)
 value=[1,2,3,4,5]
-cuberoot(value)
-print(cuberoot.__doc__)
+circum(value)
+print(circum.__doc__)
