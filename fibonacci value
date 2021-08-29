@@ -1,0 +1,12 @@
+def fibonacci(num):
+    """find fibonacci value"""
+    a=0
+    b=1
+    for i in range(0,num):
+        print(a)
+        c=a+b
+        a=b
+        b=c
+num=int(input('enter how many u want::'))
+fibonacci(num)
+
