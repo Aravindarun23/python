@@ -1,8 +1,8 @@
-def squareroot(value):
-    ''' this function is used to fina a square root '''
+def circum(value):
+    ''' this function is used to circumfrence of a circle '''
     for i in value:
-        SR=3.14*i*i
-        print(SR)
+        cir=3.14*i*i
+        print(cir)
 value=[1,2,3,4,5]
-squareroot(value)
-print(squareroot.__doc__)
+circum(value)
+print(circum.__doc__)
