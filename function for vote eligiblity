@@ -1,0 +1,8 @@
+def voting(age):
+    ''' function for knowing vote eligiblity'''
+    if age>=18:
+        print('you are eligible for voting')
+    else:
+        print('you are not eligible for voting')
+age=int(input())
+voting(age)
