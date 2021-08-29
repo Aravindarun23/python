@@ -1,0 +1,6 @@
+def fahrenheit(cc):
+    ''' this functon is used to convert celcius to fahrenheit'''
+    return (cc*9/5)+32
+
+cc=int(input("enter the celcius value:"))
+print(fahrenheit(cc))
