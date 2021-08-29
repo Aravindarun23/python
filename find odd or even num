@@ -1,0 +1,18 @@
+def oddreven(lst):
+   odd=0
+   even=0
+   for i in lst:
+        if i%2==0:
+            even=even+1
+            print(i)
+   print("there are ",even,"even numbers in a list")
+   for i in lst:
+       if i%2!=0: 
+           odd=odd+1
+           print(i) 
+   print ("there are ",odd,"odd numbers in a list")   
+    
+
+
+lst=[1,2,3,4,5,6,7,8]
+oddreven(lst)
