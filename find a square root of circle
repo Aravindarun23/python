@@ -1,8 +1,8 @@
-def circum(value):
-    ''' this function is used to circumfrence of a circle '''
+def area(value):
+    ''' this function is used to area of a circle '''
     for i in value:
-        cir=3.14*i*i
-        print(cir)
+        A=3.14*i*i
+        print(A)
 value=[1,2,3,4,5]
-circum(value)
-print(circum.__doc__)
+area(value)
+print(area.__doc__)
