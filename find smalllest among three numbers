@@ -1,0 +1,16 @@
+def smallest(a,b,c):
+    ''' find smallest among three numbers'''
+    if (a > b) and (c > b):
+        print("\nSmallest number =",b)
+    elif ( b > a ) and ( c > a ):
+        print("\nSmallest number =",a)
+    elif ( a > c ) and ( b > c ):
+        print("\nSmallest number =",c)
+    elif a == b and b == c:
+        print("\nAll numbers are Equal")
+    else:
+        print("\nSome numbers are equal")
+a=int(input())
+b=int(input())
+c=int(input())   
+smallest(a,b,c)      
