@@ -1,0 +1,16 @@
+def greater(a,b,c):
+    ''' find greatest among three numbers'''
+    if (a < b) and (c < b):
+        print("\ngreater number =",b)
+    elif ( b < a ) and ( c < a ):
+        print("\ngreater number =",a)
+    elif ( a < c ) and ( b < c ):
+        print("\ngreater number =",c)
+    elif a == b and b == c:
+        print("\nAll numbers are Equal")
+    else:
+        print("\nSome numbers are equal")
+a=int(input())
+b=int(input())
+c=int(input())   
+greater(a,b,c)      
