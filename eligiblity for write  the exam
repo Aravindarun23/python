@@ -1,0 +1,14 @@
+def percentage():
+
+    value=int(input("enter the attendance percentage:::"))
+    if value >=70 and value<=100:
+        print("you r eloigible for write the exam")
+
+    elif value > 100:
+        print("enter the corect value")
+        percentage()
+    else:
+        print("you r not eligible for write the exam")
+
+
+percentage()
