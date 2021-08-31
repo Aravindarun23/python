@@ -1,0 +1,21 @@
+def fibbo(num):
+    """ this function is used for print fibbo num and sum of fibo number"""
+    list=[]
+    a=0
+    b=1
+    sum=0
+    for i in range(0,num):
+        list.append(a)
+        c=a+b
+        a=b
+        b=c
+
+    print("fibonacci number of",num,"=",list)
+    
+    for i in list:
+        sum=sum+i
+
+    print("sum os fibo num is==",sum)
+
+num=int(input("enter the number=="))
+fibbo(num)
