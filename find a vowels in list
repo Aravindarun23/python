@@ -1,4 +1,4 @@
-lst=['a','b','c','d','e','f','g','h','i','k','l']
+lst=input().split()
 vowels=['a','e','i','o','u']
 count=0
 for i in lst:
