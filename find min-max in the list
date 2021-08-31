@@ -1,0 +1,9 @@
+def minrmax():
+
+    """ this function is used for kowns the min and max value in the list"""
+
+    lst=list(map(int,input().split()))
+    print("the max value is::",max(lst))
+    print("the min value is::",min(lst))
+    
+minrmax()
