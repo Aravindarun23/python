@@ -1,0 +1,5 @@
+def reverse(num):
+    """ reverse a number"""
+    print((num[::-1]))
+num=input("enter the number")
+reverse(num)
