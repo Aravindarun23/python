@@ -1,0 +1,12 @@
+""" formula for reverse a number"""
+
+
+a=int(input('enter the number--'))
+reverse_value=0
+while a!=0:
+    digit=a%10         #if u divide any number by 10 u get last digit
+    reverse_value=reverse_value*10+digit
+    a=a//10
+
+print("reverse_num::"+str(reverse_value))
+
